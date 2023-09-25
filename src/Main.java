@@ -1,4 +1,3 @@
-//Dodatkowe settery i gettery.
 public class Main {
     public static void main(String[] args) {
         Adres adres1 = new Adres("123 cos tam", "Miasto 1", "12-100");
