@@ -41,5 +41,17 @@ class Ludz {
         this.wiek = wiek;
         this.adres = adres;
     }
-    public
+    public String getCaleImie(){
+        return imie + " " + nazwisko;
+    }
+
+    public int getWiek(){
+        return wiek;
+    }
+
+    public void setWiek(int wiek){
+        this.wiek = wiek;
+    }
+
+    
 }
