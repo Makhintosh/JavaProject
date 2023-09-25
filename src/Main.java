@@ -6,7 +6,7 @@ public class Main {
         Adres adres3 = new Adres("123 cos tam", "Miasto 3", "12-102");
 
         Ludz ludz1 = new Ludz("Igor", "Szatkowski", 18, adres1);
-        Ludz ludz2 = new Ludz("Kacper", "ASDASD", 18, adres2);
-        Ludz ludz3 = new Ludz("Igor", "Szatkowski", 18, adres3);
+        Ludz ludz2 = new Ludz("Kacper", "Psikuta", 19, adres2);
+        Ludz ludz3 = new Ludz("Patryk", "Malomam", 21, adres3);
     }
 }
