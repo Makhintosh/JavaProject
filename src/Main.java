@@ -1,57 +1,12 @@
-class Adres {
-    private String ulica;
-    private String miasto;
-    private String kodPocztowy;
+//Dodatkowe settery i gettery.
+public class Main {
+    public static void main(String[] args) {
+        Adres adres1 = new Adres("123 cos tam", "Miasto 1", "12-100");
+        Adres adres2 = new Adres("123 cos tam", "Miasto 2", "12-101");
+        Adres adres3 = new Adres("123 cos tam", "Miasto 3", "12-102");
 
-    public Adres(String ulica, String miasto, String kodPocztowy){
-        this.ulica = ulica;
-        this.miasto = miasto;
-        this.kodPocztowy = kodPocztowy;
+        Ludz ludz1 = new Ludz("Igor", "Szatkowski", 18, adres1);
+        Ludz ludz2 = new Ludz("Kacper", "ASDASD", 18, adres2);
+        Ludz ludz3 = new Ludz("Igor", "Szatkowski", 18, adres3);
     }
-    public String getUlica(){
-        return ulica;
-    }
-    public void setUlica(String ulica){
-        this.ulica = ulica;
-    }
-
-    public String getMiasto(){
-        return miasto;
-    }
-    public void setMiasto(String miasto) {
-        this.miasto = miasto;
-    }
-
-    public String getKodPocztowy(){
-        return kodPocztowy;
-    }
-    public void setKodPocztowy(String kodPocztowy) {
-        this.kodPocztowy = kodPocztowy;
-    }
-}
-class Ludz {
-    private String imie;
-    private String nazwisko;
-    private int wiek;
-    private String adres;
-
-    public Ludz(String imie, String nazwisko, int wiek, String adres){
-        this.imie = imie;
-        this.nazwisko = nazwisko;
-        this.wiek = wiek;
-        this.adres = adres;
-    }
-    public String getCaleImie(){
-        return imie + " " + nazwisko;
-    }
-
-    public int getWiek(){
-        return wiek;
-    }
-
-    public void setWiek(int wiek){
-        this.wiek = wiek;
-    }
-
-    
 }
