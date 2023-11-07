@@ -8,5 +8,12 @@ public class Main {
         Ludz ludz1 = new Ludz("Igor", "Szatkowski", 18, adres1);
         Ludz ludz2 = new Ludz("Kacper", "Psikuta", 19, adres2);
         Ludz ludz3 = new Ludz("Patryk", "Malomam", 21, adres3);
+
+        Firma firma1 = new Firma("Myszka miki i spółka", "Dzieci", adres1);
+
+        System.out.println("Pełne imię: " + ludz1.getCaleImie());
+        System.out.println("Nazwa firmy: " + firma1.getNazwaFirmy());
+        ludz2.setWiek(26);
+        System.out.println("Zaktualizowany wiek: " + ludz2.getWiek());
     }
 }
